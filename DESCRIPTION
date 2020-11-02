@@ -4,8 +4,7 @@ Title: lab2 funcitons for data science 1
 Version: 0.1.0
 Author: xiang li
 Maintainer: xiang li <xil4005@med.cornell.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: 1.the first function makes a boxplot of payments by DRG code2.the second function calculates statistics over all of the DRG codes for average Medicare payments.
 License: None
 Encoding: UTF-8
 LazyData: true
