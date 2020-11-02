@@ -18,5 +18,5 @@ a box plot with x axis as the DRG code(only keep the number part) and y axis as 
 question1: boxplot
 }
 \examples{
-boxplot_q1(df,ydata='Average Covered Charges')
+boxplot_q1(df,ydata = 'Average Covered Charges')
 }
