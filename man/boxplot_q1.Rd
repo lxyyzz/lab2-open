@@ -4,10 +4,10 @@
 \alias{boxplot_q1}
 \title{question1: boxplot}
 \usage{
-boxplot_q1(df, ydata)
+boxplot_q1(data_1, ydata)
 }
 \arguments{
-\item{df}{The data we want to input, here we use the DRG data}
+\item{data_1}{The data we want to input, here we use the DRG data}
 
 \item{ydata}{Here we choose from " Average Covered Charges "," Average Total Payments","Average Medicare Payments" as the data of y axis}
 }
@@ -18,5 +18,5 @@ a box plot with x axis as the DRG code(only keep the number part) and y axis as 
 question1: boxplot
 }
 \examples{
-lab2(df,ydata='Average Covered Charges')
+boxplot_q1(df,ydata='Average Covered Charges')
 }

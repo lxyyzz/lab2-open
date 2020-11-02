@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' lab2_2(df,x='Mean')
+#' stat_q2(df,x='Mean')
 stat_q2<-function(df,x) {
   if(x=='Mean') { #we use if and if else to decide what output will be used
     df %>%

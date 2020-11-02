@@ -1,14 +1,14 @@
 #'question1: boxplot
-#' @param df The data we want to input, here we use the DRG data
+#' @param data_1 The data we want to input, here we use the DRG data
 #' @param ydata Here we choose from " Average Covered Charges "," Average Total Payments","Average Medicare Payments" as the data of y axis
 #'
 #' @return  a box plot with x axis as the DRG code(only keep the number part) and y axis as the ydata selected from three choices
 #' @export
 #'
 #' @examples
-#' lab2(df,ydata='Average Covered Charges')
-boxplot_q1<-function(df,ydata) {
-  df_1<- substring(df$`DRG Definition`,1,3)#we use sub string to get just the number instead of the whole name of the DRG code which helps us make the plot more clear
+#' boxplot_q1(df,ydata='Average Covered Charges')
+boxplot_q1<-function(data_1,ydata) {
+  df_1<- substring(data_1$`DRG Definition`,1,3)#we use sub string to get just the number instead of the whole name of the DRG code which helps us make the plot more clear
   ydata1<-str_to_lower(ydata) #we set the ydata1 to be lower case so that we can use it into the title and yaxis
   ggplot(df,
          aes(x=df_1,

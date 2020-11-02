@@ -18,5 +18,5 @@ a dataframe with the corresponding data we choose by x
 question2:calculation of mean,median and standard deviation
 }
 \examples{
-lab2_2(df,x='Mean')
+stat_q2(df,x='Mean')
 }
